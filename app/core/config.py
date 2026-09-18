@@ -1,6 +1,4 @@
 # app/core/config.py
-from pydantic_settings import BaseSettings, SettingsConfigDict
-
 # app/core/config.py
 from pydantic import BaseModel
 from pydantic_settings import BaseSettings, SettingsConfigDict

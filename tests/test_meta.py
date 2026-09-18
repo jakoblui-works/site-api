@@ -1,6 +1,8 @@
+from fastapi.routing import APIRoute
+
 from app.main import app
 from tests.conftest import covered_names
-from fastapi.routing import APIRoute
+
 
 def _route_exempt(route):
     exempt_reason: str | None = (route.openapi_extra or {}).get("x-test-exempt") 

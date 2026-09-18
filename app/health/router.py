@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+
 from app.core.schemas import StatusResponse
 
 router = APIRouter()

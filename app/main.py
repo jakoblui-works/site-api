@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from app.health.router import router as health_router
+
 from app.core.sentry import init_sentry
-from app.core.config import settings
+from app.health.router import router as health_router
 
 init_sentry()
 
