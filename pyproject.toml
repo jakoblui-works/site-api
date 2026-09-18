@@ -24,3 +24,9 @@ dev = [
 markers = [
     "covers_endpoint(name): mark a test as covering a specific route by its FastAPI route name",
 ]
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]  # errors, pyflakes, import sorting — a reasonable starting set
